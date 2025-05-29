@@ -1,0 +1,24 @@
+.carousel-card {
+  background: var(--color-white);
+  border-radius: 10px;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.04);
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.carousel-card__title {
+  font-size: 22px;
+  color: var(--text-color, );
+  font-weight: medium;
+  margin: 0 0 32px 0;
+}
+
+.carousel-card__img {
+  margin-top: auto;
+  width: 112px;
+  height: auto;
+  display: block;
+  align-self: center;
+}
