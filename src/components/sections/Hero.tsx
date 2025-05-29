@@ -21,9 +21,9 @@ export const Hero: React.FC = () => {
       <div className="hero__container">
         <div className="hero__content">
           <p className="hero__title">
-            <p className="hero__title">
+            <span className="hero__title">
               Bring <span className="hand-underline">clarity</span> To Your Team
-            </p>
+            </span>
           </p>
           <p className="hero__subtitle">
             Slite is a modern knowledge base that drives action with structured docs, thoughtful collaboration and confident decision-making.

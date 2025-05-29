@@ -26,14 +26,9 @@
 
 }
 .templates__carousel {
-  /* width: 100%; */
   max-width: 1240px;
   margin: 80px auto;
   align-self: center;
-
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: center; */
 }
 
 .templates__carousel-dots {
