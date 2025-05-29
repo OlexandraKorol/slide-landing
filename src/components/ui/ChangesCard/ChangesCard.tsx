@@ -1,5 +1,5 @@
 import './ChangesCard.css';
-import ChangeCartImage from '../../assets/change_card.png';
+import ChangeCartImage from '../../../assets/change_card.png';
 
 export const ChangesCard: React.FC = () => {
   return (

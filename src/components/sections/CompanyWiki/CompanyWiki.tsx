@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./CompanyWiki.css";
-import laptopImg from "../../assets/company_wiki.png";
+import laptopImg from "../../../assets/company_wiki.png";
 
 const sidebarItems = [
   "Wiki",

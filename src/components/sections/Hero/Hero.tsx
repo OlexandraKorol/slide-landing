@@ -1,16 +1,16 @@
 import React from 'react';
 import './Hero.css';
-import { CustomInput } from '../ui/CustomInput';
-import { ChangesCard } from '../ui/ChangesCard';
+import { CustomInput } from '../../ui/CustomInput/CustomInput';
+import { ChangesCard } from '../../ui/ChangesCard/ChangesCard';
 
-import heroDashboard from '../../assets/Hero.png';
+import heroDashboard from '../../../assets/Hero.png';
 
-import VanMoof from '../../assets/VanMoof.png';
-import BambooHR from '../../assets/bamboohr-logo-dark.png';
-import AgoraPulse from '../../assets/agora-pulse-dark.png';
-import Spotify from '../../assets/Spotify.png';
-import AngloAmerican from '../../assets/anglo-american.png';
-import Meero from '../../assets/Meero.png';
+import VanMoof from '../../../assets/VanMoof.png';
+import BambooHR from '../../../assets/bamboohr-logo-dark.png';
+import AgoraPulse from '../../../assets/agora-pulse-dark.png';
+import Spotify from '../../../assets/Spotify.png';
+import AngloAmerican from '../../../assets/anglo-american.png';
+import Meero from '../../../assets/Meero.png';
 
 
 
@@ -48,24 +48,24 @@ export const Hero: React.FC = () => {
       </div>
 
       <div className="hero__stats">
-        
-          <img className="hero__stat-item" src={VanMoof} alt="VANMOOF" />
- 
-        
-          <img className="hero__stat-item" src={BambooHR} alt="BambooHR" />
-        
-       
-          <img className="hero__stat-item" src={AgoraPulse} alt="AgoraPulse" />
-       
-        
-          <img className="hero__stat-item" src={Spotify} alt="Spotify" />
-        
-      
-          <img className="hero__stat-item" src={AngloAmerican} alt="AngloAmerican" />
-        
-       
-          <img className="hero__stat-item" src={Meero} alt="Meero" />
-        
+
+        <img className="hero__stat-item" src={VanMoof} alt="VANMOOF" />
+
+
+        <img className="hero__stat-item" src={BambooHR} alt="BambooHR" />
+
+
+        <img className="hero__stat-item" src={AgoraPulse} alt="AgoraPulse" />
+
+
+        <img className="hero__stat-item" src={Spotify} alt="Spotify" />
+
+
+        <img className="hero__stat-item" src={AngloAmerican} alt="AngloAmerican" />
+
+
+        <img className="hero__stat-item" src={Meero} alt="Meero" />
+
       </div>
     </section>
   );

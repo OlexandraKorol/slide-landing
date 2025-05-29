@@ -1,5 +1,5 @@
-import Button from "../ui/Button";
-import avatar from "../../assets/testimonial_avatar.png";
+import Button from "../../ui/Button/Button";
+import avatar from "../../../assets/testimonial_avatar.png";
 import "./Testimonial.css";
 
 export const Testimonial = () => {

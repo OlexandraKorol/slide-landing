@@ -1,15 +1,15 @@
-import Button from "../ui/Button"
+import Button from "../../ui/Button/Button";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Templates.css";
 
-import Image1 from "../../assets/carousel/carousel_img1.png";
-import Image2 from "../../assets/carousel/carousel_img2.png";
-import Image3 from "../../assets/carousel/carousel_img3.png";
-import Image4 from "../../assets/carousel/carousel_img4.png";
-import Image5 from "../../assets/carousel/carousel_img5.png";
-import Image6 from "../../assets/carousel/carousel_img6.png";
-import { CarouselCard } from "../ui/CarouselCard";
+import Image1 from "../../../assets/carousel/carousel_img1.png";
+import Image2 from "../../../assets/carousel/carousel_img2.png";
+import Image3 from "../../../assets/carousel/carousel_img3.png";
+import Image4 from "../../../assets/carousel/carousel_img4.png";
+import Image5 from "../../../assets/carousel/carousel_img5.png";
+import Image6 from "../../../assets/carousel/carousel_img6.png";
+import { CarouselCard } from "../../ui/CarouselCard/CarouselCard";
 
 const carouselItems = [
   { id: 1, image: Image1, title: "Creative <br/> brief" },
@@ -55,7 +55,7 @@ export const Templates = () => {
             <CarouselCard key={index} title={`${item.title}`} image={item.image} />
           ))}
         </Carousel>
-  
+
       </div>
 
     </section>
