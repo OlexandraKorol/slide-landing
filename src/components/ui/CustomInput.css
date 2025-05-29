@@ -38,7 +38,7 @@
   align-items: center;
   border: none;
   background: #2979f7;
-  color: #fff;
+  color: var(--color-white);
 
   font-weight: 500;
   cursor: pointer;

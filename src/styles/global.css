@@ -6,6 +6,10 @@
   --background-color: #F9EFE4;
   --border-color: #2F2F30;
   --gray-color: #98999A;
+  --darkgray-color: #2F2F30;
+
+  --color-white: #FFFFFF;
+  --color-black: #000000;
   
   /* Spacing */
   --spacing-xs: 0.25rem;
