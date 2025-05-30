@@ -1,79 +1,97 @@
 import React from 'react';
 import './Footer.css';
+import footerLogo from '../../../assets/footer_logo.png';
+import Button from '../../ui/Button/Button';
+import { CustomInput } from '../../ui/CustomInput/CustomInput';
 
-const Footer: React.FC = () => {
+export const Footer: React.FC = () => {
   return (
-    <footer className="footer">
-      <div className="container">
-        <div className="footer__grid">
-          <div className="footer__brand">
-            <img src="/assets/images/logo.svg" alt="Logo" className="footer__logo" />
-            <p className="footer__description">
-              Create beautiful websites with our intuitive platform. No coding required.
-            </p>
-            <div className="footer__social">
-              <a href="#" aria-label="Twitter">
-                {/* Need social icons */}
-                <img src="/assets/images/icon-twitter.svg" alt="Twitter" />
-              </a>
-              <a href="#" aria-label="Facebook">
-                <img src="/assets/images/icon-facebook.svg" alt="Facebook" />
-              </a>
-              <a href="#" aria-label="Instagram">
-                <img src="/assets/images/icon-instagram.svg" alt="Instagram" />
-              </a>
-              <a href="#" aria-label="LinkedIn">
-                <img src="/assets/images/icon-linkedin.svg" alt="LinkedIn" />
-              </a>
-            </div>
-          </div>
-
-          <div className="footer__links">
-            <div className="footer__links-column">
-              <h3>Product</h3>
+    <footer
+      className="footer"
+    >
+      <div className='footer__container'>
+        <div className="footer__main">
+          <img src={footerLogo} alt="Slite Logo" className="footer__logo" />
+          <div className="footer__columns">
+            <div className="footer__col">
+              <p>What it's for</p>
               <ul>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#templates">Templates</a></li>
-                <li><a href="#updates">Updates</a></li>
+                <li>Knowledge base</li>
+                <li>Working remotely</li>
+                <li>Fix remote meetings</li>
+                <li>Onboarding remotely</li>
+                <li>Build human connection</li>
+                <li>Handbooks</li>
               </ul>
             </div>
-
-            <div className="footer__links-column">
-              <h3>Company</h3>
+            <div className="footer__col">
+              <p>How it works</p>
               <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#careers">Careers</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#press">Press</a></li>
+                <li>Features</li>
+                <li>Integrations</li>
+                <li>Pricing</li>
+                <li>What's new</li>
+                <li>Help center</li>
+                <li>Contact support</li>
               </ul>
             </div>
-
-            <div className="footer__links-column">
-              <h3>Resources</h3>
+            <div className="footer__col">
+              <p>Resources</p>
               <ul>
-                <li><a href="#help">Help Center</a></li>
-                <li><a href="#guides">Guides</a></li>
-                <li><a href="#api">API</a></li>
-                <li><a href="#status">Status</a></li>
+                <li>Templates</li>
+                <li>Learn</li>
+                <li>Blog</li>
+                <li>Startup Bibles</li>
+                <li>Remote handbook</li>
+                <li>Management handbook</li>
+                <li>Download apps</li>
+                <li>Chrome extension</li>
               </ul>
+            </div>
+            <div className="footer__col">
+              <p>Slite</p>
+              <ul>
+                <li>About us</li>
+                <li>Find us on Twitter</li>
+                <li>
+                  Careers <span className="footer__badge">Hiring</span>
+                </li>
+                <li>Customers</li>
+                <li>Press kit</li>
+              </ul>
+            </div>
+            <div className="footer__col">
+              <p>Compare</p>
+              <ul>
+                <li>Notion</li>
+                <li>Confluence</li>
+                <li>Google Docs</li>
+                <li>Dropbox Paper</li>
+                <li>All comparisons</li>
+              </ul>
+            </div>
+            <div className="footer__col--newsletter">
+              <p>Remote letters to read on your own time</p>
+              <form className="footer__newsletter">
+               <CustomInput buttonText={'→'} />
+              </form>
+              <p className="footer__newsletter-desc">
+                100% homemade, no tricks or ponies or growth hacking nonsense. Just remote things we care about with a short surprising insight every week. No rush.
+              </p>
             </div>
           </div>
         </div>
-
+        <div className="footer__divider"></div>
         <div className="footer__bottom">
-          <p className="footer__copyright">
-            © 2024 Your Company. All rights reserved.
-          </p>
-          <div className="footer__legal">
-            <a href="#privacy">Privacy Policy</a>
-            <a href="#terms">Terms of Service</a>
-            <a href="#cookies">Cookie Policy</a>
+          <div className="footer__links">
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+            <a href="#">User terms</a>
+            <a href="#">Customer terms</a>
           </div>
+          <p className="footer__copyright">©2022 Slite. All rights reserved.</p>
         </div>
       </div>
     </footer>
   );
 };
-
-export default Footer; 

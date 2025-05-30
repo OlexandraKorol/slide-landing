@@ -30,7 +30,7 @@ export const Hero: React.FC = () => {
 
         </div>
         <div className="hero__cta">
-          <CustomInput />
+          <CustomInput buttonText='Start For Free' />
         </div>
         <div className="hero__image">
 

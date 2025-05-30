@@ -3,7 +3,12 @@ import Button from "../Button/Button";
 import './CustomInput.css';
 
 
-export const CustomInput: React.FC = () => {
+
+interface CustomInputProps {
+  buttonText: string;
+}
+
+export const CustomInput: React.FC<CustomInputProps> = ({buttonText}) => {
   const [value, setValue] = useState('');
 
   return (
@@ -16,7 +21,7 @@ export const CustomInput: React.FC = () => {
           onChange={e => setValue(e.target.value)}
           className="custom-input__field"
         />
-        <Button className={"button"} variant='primary'>Start For Free</Button>
+        <Button className={"button"} variant='primary'>{buttonText}</Button>
       </div>
     </div>
   );
