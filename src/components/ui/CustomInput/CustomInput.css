@@ -39,9 +39,24 @@
   border: none;
   background: #2979f7;
   color: var(--color-white);
-
   font-weight: 500;
   cursor: pointer;
   transition: background 0.2s;
 }
 
+
+@media (max-width: 600px) {
+  .custom-input {
+    width: 100%;
+    min-width: 0;
+    height: 40px;
+  }
+  .custom-input__field {
+    font-size: 0.95rem;
+    padding: 0 12px;
+  }
+  .custom-input .button {
+    font-size: 0.95rem;
+    padding: 0 16px;
+  }
+}

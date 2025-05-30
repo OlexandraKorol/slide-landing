@@ -1,7 +1,7 @@
 .card {
   display: flex;
   align-items: center;
-  background: white;
+  background: var(--color-white);
   border-radius: 12px;
   padding: 16px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.08);
@@ -21,7 +21,7 @@
 .text-content h3 {
   margin: 0;
   font-size: 18px;
-  font-weight: "bold";
+  font-weight: bold;
   color: var(--text-color);
 }
 
@@ -29,4 +29,25 @@
   margin: 4px 0 0;
   font-size: 14px;
   color: var(--gray-color);
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    max-width: 100%;
+  }
+  .avatar-image {
+    display: none;
+  }
+  .text-content {
+    margin-left: 0;
+  }
+  .text-content h3 {
+    font-size: 16px;
+  }
+  .text-content p {
+    font-size: 13px;
+  }
 }

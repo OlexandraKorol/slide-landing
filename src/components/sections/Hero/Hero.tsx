@@ -13,8 +13,6 @@ import AngloAmerican from '../../../assets/anglo-american.png';
 import Meero from '../../../assets/Meero.png';
 
 
-
-
 export const Hero: React.FC = () => {
   return (
     <section className="hero">
@@ -48,24 +46,12 @@ export const Hero: React.FC = () => {
       </div>
 
       <div className="hero__stats">
-
         <img className="hero__stat-item" src={VanMoof} alt="VANMOOF" />
-
-
         <img className="hero__stat-item" src={BambooHR} alt="BambooHR" />
-
-
         <img className="hero__stat-item" src={AgoraPulse} alt="AgoraPulse" />
-
-
         <img className="hero__stat-item" src={Spotify} alt="Spotify" />
-
-
         <img className="hero__stat-item" src={AngloAmerican} alt="AngloAmerican" />
-
-
         <img className="hero__stat-item" src={Meero} alt="Meero" />
-
       </div>
     </section>
   );
