@@ -1,0 +1,58 @@
+[
+  {
+    "quote": "The most important thing in a wiki is how tight the edit / collaboration loop is. Most wikis are pretty bad there. But Slite is an example of a wiki that allows simultaneous editing.",
+    "name": "Jade Rubick",
+    "position": "CTO, Gremlin",
+    "team_size": "80+",
+    "image": "partner1.png"
+  },
+  {
+    "quote": "Communication is key to scale a business. Slite is the best to keep easy to use for everyone. Templates to adopt the best practices. Summary to stay up to date on all topics.",
+    "name": "Lee Liu",
+    "position": "CTO, Log DNA",
+    "team_size": "150+",
+    "image": "partner2.png"
+  },
+  {
+    "quote": "Slite is easier to use on a daily basis. We chose to avoid a distracting tool to offer a place of focus and clarity. The tips on how to structure our knowledge were also a big plus.",
+    "name": "Thibault Morlot",
+    "position": "VP Operations, Shipped",
+    "team_size": "240+",
+    "image": "partner3.png"
+  },
+  {
+    "quote": "Slite let us bring the two most important communication bits in the same place: documentation & decision-making. The connection makes decision-making more efficient, transparent & contextualized.",
+    "name": "Sebastien Gendreau",
+    "position": "Head of Product, Agorapulse",
+    "team_size": "175+",
+    "image": "partner4.png"
+  },
+  {
+    "quote": "The reasons why certain decisions were made can be found in one place and not scattered across different Slack channels.",
+    "name": "Jurgita Paulauskaite",
+    "position": "Customer Success, TYMESHIFT",
+    "team_size": "75+",
+    "image": "partner5.png"
+  },
+  {
+    "quote": "As we're growing fast, the ease of adoption is a crucial element when choosing a new solution. You can see Slite is more user friendly, and its similarities with Slack make it easier to adopt.",
+    "name": "Martijn Hazelaar",
+    "position": "Head of Digital, VanMoof",
+    "team_size": "500+",
+    "image": "partner6.png"
+  },
+  {
+    "quote": "We switched from Confluence to Slite. Slite is easy to use for the entire company, not just the product team. Now, our entire company writes and organizes content in Slite.",
+    "name": "Donald Sipe",
+    "position": "Solutions Architect, JobTarget",
+    "team_size": "300+",
+    "image": "partner7.png"
+  },
+  {
+    "quote": "Perfect example of a product that delivers the 80/20 rule. No fluff and simple. You give me the top 20% of what I need that gets 80% done. Great for managing internal teams, simplifying internal docs, onboarding docs and easy to find what you need.",
+    "name": "Eric Fettner",
+    "position": "Cofounder & COO, The Job Sauce",
+    "team_size": "20+",
+    "image": "partner8.png"
+  }
+]

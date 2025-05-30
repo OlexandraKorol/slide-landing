@@ -1,0 +1,86 @@
+.partner-card {
+  background: var(--color-white);
+  border-radius: 24px;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.06);
+  padding: 40px 36px 32px 36px;
+  max-width: 420px;
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.partner-card__quote {
+  font-size: 18px;
+  color: var(--text-color);
+  font-weight: 400;
+  margin: 0 0 32px 0;
+  text-align: left;
+}
+
+.partner-card__person {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.partner-card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.partner-card__name {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+
+.partner-card__position,
+.partner-card__employees {
+  font-size: 0.98rem;
+  color: var(--gray-color);
+  letter-spacing: 0.04em;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+
+.partner-card__image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 24px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
+  border: 2px solid var(--color-white);
+}
+
+@media (max-width: 600px) {
+  .partner-card {
+    padding: 20px 10px 20px 10px;
+    max-width: 100%;
+    min-height: 0;
+  }
+  .partner-card__quote {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  .partner-card__person {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 18px;
+    gap: 12px;
+  }
+  .partner-card__image {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 64px;
+    height: 64px;
+  }
+}
