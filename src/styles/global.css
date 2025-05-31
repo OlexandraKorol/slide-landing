@@ -13,8 +13,31 @@
   
   /* Spacing */
   --spacing-container-padding: 45px 80px;
+  --spacing-container-padding-tablet: 32px 24px;
+  --spacing-container-padding-mobile: 20px 8px;
+  --spacing-container-padding-small: 10px 2px;
 
+  /* Breakpoints */
   --spacing-desktop: 1024px;
   --spacing-tablet: 768px;
   --spacing-mobile: 480px;
+
+  /* Typography */
+  --font-size-large: 60px;
+  --font-size-medium: 42px;
+  --font-size-normal: 18px;
+  --font-size-small: 16px;
+  --font-size-xs: 12px;
+  --font-size-xxs: 10px;
+
+  /* Border Radius */
+  --border-radius-large: 18px;
+  --border-radius-medium: 100px;
+
+  /* Shadows */
+  --shadow-card: 0 2px 16px 0 rgba(0,0,0,0.03);
+
+  /* Transitions */
+  --transition-default: 0.2s;
+  --transition-smooth: 0.3s ease;
 }
