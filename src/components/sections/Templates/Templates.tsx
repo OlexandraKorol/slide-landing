@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import Button from "../../ui/Button/Button";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
