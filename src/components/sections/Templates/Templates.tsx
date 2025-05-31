@@ -22,24 +22,24 @@ const carouselItems = [
 
 
 export const Templates = () => {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 6
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 4
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 3
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 2
-    }
-  };
+const responsive = {
+  superLargeDesktop: {
+    breakpoint: { max: 4000, min: 1440 },
+    items: 4
+  },
+  desktop: {
+    breakpoint: { max: 1440, min: 1024 },
+    items: 4
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 768 },
+    items: 3
+  },
+  mobile: {
+    breakpoint: { max: 768, min: 0 },
+    items: 2
+  }
+};
   return (
     <section className="templates">
       <p className="templates__title">Templates for every use case.</p>
@@ -50,7 +50,7 @@ export const Templates = () => {
         <Button variant="secondary">Browse templates</Button>
 
 
-        <Carousel className="templates__carousel" responsive={responsive} arrows={false} infinite={true} autoPlay={true} autoPlaySpeed={3000} >
+        <Carousel className="templates__carousel" responsive={responsive} arrows={false} infinite={true} autoPlay={true} autoPlaySpeed={3000}>
           {carouselItems.map((item, index) => (
             <CarouselCard key={index} title={`${item.title}`} image={item.image} />
           ))}

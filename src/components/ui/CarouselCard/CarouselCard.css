@@ -22,3 +22,45 @@
   display: block;
   align-self: center;
 }
+
+@media (max-width: 1024px) {
+  .carousel-card {
+    width: 160px;
+    padding: 16px;
+  }
+  .carousel-card__title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .carousel-card__img {
+    width: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-card {
+    width: 130px;
+    padding: 12px;
+  }
+  .carousel-card__title {
+    font-size: 15px;
+    margin-bottom: 14px;
+  }
+  .carousel-card__img {
+    width: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-card {
+    width: 100px;
+    padding: 8px;
+  }
+  .carousel-card__title {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .carousel-card__img {
+    width: 48px;
+  }
+}
