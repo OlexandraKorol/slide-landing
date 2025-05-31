@@ -86,26 +86,6 @@
   margin-top: 4px;
 }
 
-.footer__newsletter-input {
-  flex: 1;
-  border: 1.5px solid #aaa;
-  border-radius: 100px 0 0 100px;
-  padding: 0 20px;
-  height: 48px;
-  font-size: 1rem;
-  outline: none;
-  background: #fff;
-}
-
-.footer__newsletter-btn {
-  border-radius: 0 100px 100px 0;
-  height: 48px;
-  min-width: 48px;
-  margin-left: -2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .footer__newsletter-desc {
   font-size: 0.95rem;
@@ -136,19 +116,16 @@
 }
 
 .footer__links a {
-  color: #222;
-  font-size: 1rem;
+  color: var(--text-color);
+  font-size: 12px;
   text-decoration: none;
   transition: color 0.2s;
 }
 
-.footer__links a:hover {
-  color: #2979f7;
-}
 
 .footer__copyright {
-  color: #222;
-  font-size: 1rem;
+  color: var(--text-color);
+  font-size: 12px;
   margin: 0;
 }
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
 import footerLogo from '../../../assets/footer_logo.png';
-import Button from '../../ui/Button/Button';
 import { CustomInput } from '../../ui/CustomInput/CustomInput';
 
 export const Footer: React.FC = () => {

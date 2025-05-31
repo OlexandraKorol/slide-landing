@@ -1,6 +1,6 @@
 import { PartnerCard } from "../../ui/PartnerCard/PartnerCard";
 import '../Partners/Partners.css';
-import PartnerData from '../../../utils/partners_data.json'
+import PartnerData from '../../../data/partners_data.json'
 
 import partner1 from "../../../assets/partners/partner1.png";
 import partner2 from "../../../assets/partners/partner2.png";
