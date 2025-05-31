@@ -1,5 +1,5 @@
 .templates {
-    max-width: var(--spacing-desktop);
+    /* max-width: var(--spacing-desktop); */
   padding: var(--spacing-container-padding);
 
 }
