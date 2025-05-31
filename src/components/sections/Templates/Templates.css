@@ -1,7 +1,7 @@
 .templates {
-  max-width: 1240px;
-  backdrop-filter: blur(10px);
-  padding: 45px 80px;
+    max-width: var(--spacing-desktop);
+  padding: var(--spacing-container-padding);
+
 }
 .templates__title {
   font-size: 32px;
