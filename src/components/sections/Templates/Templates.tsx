@@ -26,11 +26,11 @@ export const Templates = () => {
   const responsive = useMemo(() => ({
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1440 },
-      items: 4
+      items: 3
     },
     desktop: {
       breakpoint: { max: 1440, min: 1024 },
-      items: 4
+      items: 3
     },
     tablet: {
       breakpoint: { max: 1024, min: 768 },
@@ -52,7 +52,7 @@ export const Templates = () => {
         <Button variant="secondary">Browse templates</Button>
 
 
-        <Carousel className="templates__carousel" responsive={responsive} arrows={false} infinite={true} autoPlay={true} autoPlaySpeed={3000}>
+        <Carousel className="templates__carousel" centerMode={true} responsive={responsive} arrows={false} infinite={true} autoPlay={true} autoPlaySpeed={3000}>
           {carouselItems.map((item, index) => (
             <CarouselCard key={index} title={`${item.title}`} image={item.image} />
           ))}

@@ -1,5 +1,4 @@
 .company-wiki {
-  max-width: var(--spacing-desktop);
   padding: var(--spacing-container-padding);
   text-align: center;
 }
