@@ -1,59 +1,104 @@
-# React + TypeScript + Vite
+# Slite Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built with React and TypeScript, showcasing Slite's features and pricing plans.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live demo: [Slite Landing Page](https://slide-landing-git-main-olexandra-korols-projects.vercel.app/)
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- TypeScript
+- CSS3
+- React Multi Carousel
+- Vercel (Deployment)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## ✨ Features
+
+- Responsive design that works on all devices
+- Modern and clean UI
+- Interactive carousel for templates
+- Pricing section with different plans
+- Custom input component with email validation
+- Smooth animations and transitions
+- Optimized performance with React hooks (useMemo, useCallback)
+
+## 🎨 Design Features
+
+- Custom CSS variables for consistent styling
+- Responsive breakpoints for different screen sizes
+- Modern typography and spacing system
+- Interactive hover effects
+- Card-based layout
+- Custom button components
+
+## 📱 Responsive Design
+
+The landing page is fully responsive and optimized for:
+- Desktop (1024px and above)
+- Tablet (768px - 1024px)
+- Mobile (480px and below)
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+```bash
+git clone [repository-url]
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. Install dependencies:
+```bash
+npm install
 ```
-# slide-landing
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Build for production:
+```bash
+npm run build
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── assets/          # Images and static assets
+├── components/      # React components
+│   ├── ui/         # Reusable UI components
+│   ├── sections/   # Page sections
+│   └── layout/     # Layout components
+├── styles/         # Global styles and CSS variables
+└── main.tsx        # Application entry point
+```
+
+## 🎯 Key Components
+
+- `Header`: Navigation and logo
+- `Hero`: Main banner with call-to-action
+- `Templates`: Interactive carousel showcasing templates
+- `Price`: Pricing plans and features
+- `CustomInput`: Reusable input component with button
+- `Button`: Custom button component with variants
+
+## 🛠️ Development
+
+The project uses modern React practices:
+- Functional components
+- React hooks for state management
+- CSS variables for theming
+- Responsive design patterns
+- Performance optimizations
+
+## 📝 License
+
+This project is licensed under the MIT License.
 
 
-https://www.figma.com/design/eM8boPVe2G2U4V6A54vMJl/Best-Websites-of-2023---Webflow-%7C-Figma-Design--Community---Copy-?node-id=2-2&t=VDFSvLvwyN2SpZql-0
-dsevf
+---
+
+
+Made with ❤️ using React and TypeScript
