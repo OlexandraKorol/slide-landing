@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./CompanyWiki.css";
 import laptopImg from "../../../assets/company_wiki.png";
 
@@ -18,7 +18,7 @@ export const CompanyWiki = () => {
   const [active, setActive] = useState(0);
 
   return (
-    <section className="company-wiki">
+    <section id="features" className="company-wiki">
       <p className="company-wiki__title">A home for all of your knowledge.</p>
       <p className="company-wiki__subtitle">
         Project, knowledge base, process – bring all your work to life in Docs.

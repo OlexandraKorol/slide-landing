@@ -1,7 +1,5 @@
 .price {
-  max-width: var(--spacing-desktop);
   padding: var(--spacing-container-padding);
-
   display: flex;
   justify-content: center;
 }
@@ -168,7 +166,6 @@
 
 @media (max-width: 480px) {
   .price {
-        background-color: aqua;
     padding: 10px 2px;
   }
   .price__title {

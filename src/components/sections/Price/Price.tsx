@@ -3,7 +3,7 @@ import "./Price.css";
 
 export const Price: React.FC = () => {
   return (
-    <section className="price">
+    <section id="pricing" className="price">
       <div className="price__content">
 
         <p className="price__title">A radical change at a <br /> fair price.</p>

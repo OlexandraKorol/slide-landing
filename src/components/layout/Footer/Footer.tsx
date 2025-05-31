@@ -6,7 +6,7 @@ import { CustomInput } from '../../ui/CustomInput/CustomInput';
 export const Footer: React.FC = () => {
   return (
     <footer
-      className="footer"
+      className="footer" id='pricing'
     >
       <div className='footer__container'>
         <div className="footer__main">
@@ -69,6 +69,7 @@ export const Footer: React.FC = () => {
                 <li>All comparisons</li>
               </ul>
             </div>
+          </div>
             <div className="footer__col--newsletter">
               <p>Remote letters to read on your own time</p>
               <form className="footer__newsletter">
@@ -78,7 +79,6 @@ export const Footer: React.FC = () => {
                 100% homemade, no tricks or ponies or growth hacking nonsense. Just remote things we care about with a short surprising insight every week. No rush.
               </p>
             </div>
-          </div>
         </div>
         <div className="footer__divider"></div>
         <div className="footer__bottom">

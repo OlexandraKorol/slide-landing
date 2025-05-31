@@ -41,7 +41,7 @@ const responsive = {
   }
 };
   return (
-    <section className="templates">
+    <section id="about" className="templates">
       <p className="templates__title">Templates for every use case.</p>
       <p className="templates__subtitle">
         From product roadmaps to meeting notes, start with a template and make it your own.
